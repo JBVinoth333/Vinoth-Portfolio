@@ -128,14 +128,14 @@ export default function Projects() {
                         <article key={project.title} className="project-card">
                             <img src={project.image} alt={`${project.title} preview`} className="project-thumb" loading="lazy" />
                             <h3 className="project-title">{project.title}</h3>
-                            <p className="project-description">
-                                {project.description || 'A practical project focused on clean implementation and learning outcomes.'}
-                            </p>
                             <div className="project-tags">
                                 {project.tags.map((tag) => (
                                     <span key={tag}>{tag}</span>
                                 ))}
                             </div>
+                            <p className="project-description">
+                                {project.description || 'A practical project focused on clean implementation and learning outcomes.'}
+                            </p>
                             <div className="project-links">
                                 {project.source && (
                                     <a className="project-link-btn" href={project.source} target="_blank" rel="noreferrer">
