@@ -46,6 +46,15 @@ const projects = [
         image: simonSaysImage,
     },
     {
+        title: 'RamNathKovind Website',
+        description: 'A website dedicated to the former President of India, Ram Nath Kovind, built using HTML,CSS and JavaScript.',
+        source: 'https://github.com/Cherry6628/RamNathKovindWebsite',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        preview: 'https://cherry6628.github.io/RamNathKovindWebsite/index.html',
+        category: ['HTML & CSS', 'JavaScript', 'Group Project'],
+        image: ramNathKovindImage
+    },
+    {
         title: 'BMI Calculator',
         description: 'A BMI calculator web application built using Node.js, Express, and EJS for dynamic content rendering.',
         source: 'https://github.com/JBVinoth333/BMI_CALCULATOR_NODEJS',
@@ -79,15 +88,7 @@ const projects = [
         category: ['HTML & CSS'],
         image: bmwImage,
     },
-    {
-        title: 'RamNathKovind Website',
-        description: 'A website dedicated to the former President of India, Ram Nath Kovind, built using HTML,CSS and JavaScript.',
-        source: 'https://github.com/Cherry6628/RamNathKovindWebsite',
-        tags: ['HTML', 'CSS', 'JavaScript'],
-        preview: 'https://cherry6628.github.io/RamNathKovindWebsite/index.html',
-        category: ['HTML & CSS', 'JavaScript', 'Group Project'],
-        image: ramNathKovindImage
-    },
+
     {
         title: 'Traffic Escape Game',
         description: 'A traffic escape game developed using Scratch, where players navigate through traffic to reach their destination.',
@@ -105,7 +106,7 @@ const projects = [
     }
 ]
 
-const categories = ['All', 'Java', 'JavaScript', 'HTML & CSS', 'Scratch' , 'Group Project']
+const categories = ['All', 'Java', 'JavaScript', 'HTML & CSS', 'Scratch', 'Group Project']
 
 export default function Projects() {
     const [selectedCategory, setSelectedCategory] = useState('All')
