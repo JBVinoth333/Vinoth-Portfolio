@@ -9,6 +9,7 @@ import spiroGraphImage from '../assets/spiro-graph.png'
 import linkedListImage from '../assets/Linked-List.png'
 import jsBankImage from '../assets/bankImage.jpg'
 import bmiImage from '../assets/bmi-calculator.jpg'
+import ramNathKovindImage from '../assets/ramnathWebsite.png'
 
 const projects = [
     {
@@ -79,6 +80,15 @@ const projects = [
         image: bmwImage,
     },
     {
+        title: 'RamNathKovind Website',
+        description: 'A website dedicated to the former President of India, Ram Nath Kovind, built using HTML,CSS and JavaScript.',
+        source: 'https://github.com/Cherry6628/RamNathKovindWebsite',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        preview: 'https://cherry6628.github.io/RamNathKovindWebsite/index.html',
+        category: ['HTML & CSS', 'JavaScript', 'Group Project'],
+        image: ramNathKovindImage
+    },
+    {
         title: 'Traffic Escape Game',
         description: 'A traffic escape game developed using Scratch, where players navigate through traffic to reach their destination.',
         preview: 'https://scratch.mit.edu/projects/1192518931',
@@ -95,7 +105,7 @@ const projects = [
     }
 ]
 
-const categories = ['All', 'Java', 'JavaScript', 'HTML & CSS', 'Scratch']
+const categories = ['All', 'Java', 'JavaScript', 'HTML & CSS', 'Scratch' , 'Group Project']
 
 export default function Projects() {
     const [selectedCategory, setSelectedCategory] = useState('All')
