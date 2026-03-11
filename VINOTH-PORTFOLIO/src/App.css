@@ -548,7 +548,6 @@ a {
     padding: 0;
     background: transparent;
     color: var(--text-color);
-    text-align: justify;
     font-size: var(--fs-body);
     line-height: 1.6;
 }
