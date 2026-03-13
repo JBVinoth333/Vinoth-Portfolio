@@ -46,7 +46,7 @@ const projects = [
         image: simonSaysImage,
     },
     {
-        title: 'RamNathKovind Website',
+        title: 'Ram Nath Kovind Website',
         description: 'A website dedicated to the former President of India, Ram Nath Kovind, built using HTML,CSS and JavaScript.',
         source: 'https://github.com/Cherry6628/RamNathKovindWebsite',
         tags: ['HTML', 'CSS', 'JavaScript'],
