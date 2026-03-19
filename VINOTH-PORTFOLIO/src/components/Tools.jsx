@@ -1,31 +1,35 @@
 const tools = [
     {
-        name: 'VS Code',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
-    },
-    {
-        name: 'IntelliJ',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg',
-    },
-    {
         name: 'Eclipse',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg',
+    },
+    {
+        name: 'VS Code',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
     },
     {
         name: 'GitHub',
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
     },
     {
-        name: 'Postman',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg',
+        name: 'Claude',
+        icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/claude.svg',
+    },
+    {
+        name: 'Selenium',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg',
     },
     {
         name: 'Apache JMeter',
         icon: 'https://jmeter.apache.org/images/jmeter_square.svg',
     },
     {
-        name: 'Selenium',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg',
+        name: 'Postman',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg',
+    },
+    {
+        name: 'Linux Terminal',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
     },
     {
         name: 'ChatGPT',
@@ -35,10 +39,7 @@ const tools = [
         name: 'Gemini',
         icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/googlegemini.svg',
     },
-    {
-        name: 'Linux Terminal',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
-    },
+
 ]
 
 export default function Tools() {
