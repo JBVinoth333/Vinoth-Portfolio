@@ -29,14 +29,6 @@ const projects = [
         image: linkedListImage,
     },
     {
-        title: 'Hand Cricket Game',
-        description: 'A hand cricket game developed in Java, featuring a simple command-line interface for an engaging gaming experience.',
-        source: 'https://github.com/JBVinoth333/Hand_Cricket_Game',
-        tags: ['Java'],
-        category: ['Java'],
-        image: handCricketImage,
-    },
-    {
         title: 'Simon Says Game',
         description: 'A Simon Says game developed using JavaScript, HTML, and CSS, providing an interactive and fun experience.',
         source: 'https://github.com/JBVinoth333/Simon-Says',
@@ -46,6 +38,23 @@ const projects = [
         image: simonSaysImage,
     },
     {
+        title: 'BMW Website',
+        description: 'A International BMW website, showcasing their models and features, built using HTML and CSS.',
+        source: 'https://github.com/JBVinoth333/BMW',
+        tags: ['HTML', 'CSS'],
+        preview: "https://jbvinoth333.github.io/BMW/BMW_PROJECT/home_page_001/BMW.html",
+        category: ['HTML & CSS'],
+        image: bmwImage,
+    },
+    {
+        title: 'Hand Cricket Game',
+        description: 'A hand cricket game developed in Java, featuring a simple command-line interface for an engaging gaming experience.',
+        source: 'https://github.com/JBVinoth333/Hand_Cricket_Game',
+        tags: ['Java'],
+        category: ['Java'],
+        image: handCricketImage,
+    },
+    {
         title: 'Ram Nath Kovind Website',
         description: 'A website dedicated to the former President of India, Ram Nath Kovind, built using HTML,CSS and JavaScript.',
         source: 'https://github.com/Cherry6628/RamNathKovindWebsite',
@@ -53,6 +62,15 @@ const projects = [
         preview: 'https://cherry6628.github.io/RamNathKovindWebsite/index.html',
         category: ['HTML & CSS', 'JavaScript', 'Group Project'],
         image: ramNathKovindImage
+    },
+    {
+        title: 'Simple Banking System',
+        description: 'A simple banking system implemented in JavaScript, HTML, and CSS, allowing users to manage their accounts and transactions.',
+        source: 'https://github.com/JBVinoth333/Advanced_JS_Assignments/tree/master/assign004',
+        preview: 'https://jbvinoth333.github.io/Advanced_JS_Assignments/assign004/bank.html',
+        tags: ['JavaScript', 'HTML', 'CSS'],
+        category: ['JavaScript', 'HTML & CSS'],
+        image: jsBankImage,
     },
     {
         title: 'BMI Calculator',
@@ -70,24 +88,8 @@ const projects = [
         category: ['JavaScript', 'HTML & CSS'],
         image: planetsImage,
     },
-    {
-        title: 'Simple Banking System',
-        description: 'A simple banking system implemented in JavaScript, HTML, and CSS, allowing users to manage their accounts and transactions.',
-        source: 'https://github.com/JBVinoth333/Advanced_JS_Assignments/tree/master/assign004',
-        preview: 'https://jbvinoth333.github.io/Advanced_JS_Assignments/assign004/bank.html',
-        tags: ['JavaScript', 'HTML', 'CSS'],
-        category: ['JavaScript', 'HTML & CSS'],
-        image: jsBankImage,
-    },
-    {
-        title: 'BMW Website',
-        description: 'A International BMW website, showcasing their models and features, built using HTML and CSS.',
-        source: 'https://github.com/JBVinoth333/BMW',
-        tags: ['HTML', 'CSS'],
-        preview: "https://jbvinoth333.github.io/BMW/BMW_PROJECT/home_page_001/BMW.html",
-        category: ['HTML & CSS'],
-        image: bmwImage,
-    },
+
+
 
     {
         title: 'Traffic Escape Game',
